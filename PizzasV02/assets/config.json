@@ -1,0 +1,33 @@
+{
+    "nombre_negocio": "PIZZERIA MASTER",
+    "database_url": "postgresql://postgres.nbxjayvlnqnzrujixgeg:serdoMMM94.@aws-0-us-east-1.pooler.supabase.com:6543/postgres",
+    "seguridad": {
+        "pin_dueno": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4", 
+        "pines_por_sucursal": {
+            "MATRIZ": {
+                "pin_cocina": "41c991eb6a66242c0454191244278183ce58cf4a6bcd372f799e4b9cc01886af",
+                "pines_empleados": [
+                    "0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c",
+                    "$2b$12$tibGNzfPRZriVyQRrt5u4u9dO7E.PNaTR..PwxcrpTvbsd4nnxwgG"
+                ],
+                "pines_repartidores": [
+                    "2092dd52f8c243c4e59ca32a7de6b814ddd9d601632fd26165e7afc467242fe5",
+                    "edee29f882543b956620b26d0ee0e7e950399b1c4222f5de05e06425b4c995e9",
+                    "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481"
+                ]
+            },
+            "SUCURSAL2": {
+                "pin_cocina": "c1f330d0aff31c1c87403f1e4347bcc21aff7c179908723535f2b31723702525",
+                "pines_empleados": [
+                    "318aee3fed8c9d040d35a7fc1fa776fb31303833aa2de885354ddf3d44d8fb69",
+                    "$2b$12$8KasnAjbwmLfq3Vcin2JSeQCRzctduiI6RF4CdMxYE0kBu68e.HvS"
+                ],
+                "pines_repartidores": [
+                    "fc61dd3e648333d1c1133dde787c624ec4cfbac64912876c3fc5f80b5ab883bd",
+                    "9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0",
+                    "888df25ae35772424a560c7152a1de794440e0ea5cfee62828333a456a506e05"
+                ]
+            }
+        }
+    }
+}
