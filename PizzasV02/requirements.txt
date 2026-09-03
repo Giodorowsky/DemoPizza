@@ -1,5 +1,8 @@
 flet==0.86.0
-asyncpg
 bcrypt
 flet-audio
 flet-charts
+flet
+supabase
+gotrue
+postgrest
