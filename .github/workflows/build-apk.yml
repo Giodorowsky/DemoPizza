@@ -35,16 +35,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install flet
 
-      - name: Locate project and Build APK
+      - name: Build APK
         run: |
-          # Encuentra automáticamente la carpeta donde se ubica main.py
-          TARGET_DIR=$(dirname $(find . -maxdepth 3 -name "main.py" -print -quit))
-          echo "Directorio encontrado: $TARGET_DIR"
-          cd "$TARGET_DIR"
-          flet build apk --no-interactive
+          cd PizzasV02
+          flet build apk
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: app-release
-          path: "**/build/apk/*.apk"
+          path: PizzasV02/build/apk/*.apk
